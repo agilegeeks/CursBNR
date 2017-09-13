@@ -13,7 +13,7 @@ class CursBNR
      * BNR date format is Y-m-d
      * @var string
      */
-    private $date = "";
+    public $date = "";
      
      
     /**
