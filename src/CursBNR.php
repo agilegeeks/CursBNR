@@ -13,7 +13,7 @@ class CursBNR
      * BNR date format is Y-m-d
      * @var string
      */
-    public $date = "";
+    private $date = "";
      
      
     /**
@@ -80,5 +80,10 @@ class CursBNR
         }
 
         throw new Exception('Incorrect currency!');
+    }
+
+    public function getPublishingDate()
+    {
+        return (string)$this->date;
     }
 }
