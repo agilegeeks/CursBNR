@@ -1,10 +1,10 @@
 {
-    "name": "itrack/cursbnr",
+    "name": "agilegeeks/CursBNR",
     "version": "1.0.2",
     "type": "library",
     "description": "Librarie PHP pentru preluarea cursului valutar din Romania",
     "keywords": ["curs valutar","bnr", "curs bnr"],
-    "homepage": "https://github.com/itrack/CursBNR",
+    "homepage": "https://github.com/agilegeeks/CursBNR",
     "license": "MIT",
     "authors": [
         {
